@@ -58,21 +58,27 @@ router.get('/', async (req, res) => {
 
                let FLASH_MD_TEXT = `
 
-┊❂╭*GAGA SESSION CONNECTED*─❂
-┊✺┊*Follow my channel*
-┊✺┊https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F
-*send this session to your deployer*
-┊✺╰───────────────❂
-┊✺┊ *Join my group for bot updates*
-┊✺┊https://chat.whatsapp.com/JP0tus4T1Hm6gnwuIRmaIW  
-┊❂╰─────────────*GAGA SESSION*
-╰──────────────────❂ *OWNER*
-*RICHARD GAGA*
-https://wa.me/254112291443
+xɢᴀɢᴀ sᴇssɪᴏɴ ᴄᴏɴɴᴇᴄᴛᴇᴅ
 
-https://t.me/richardgaga
-> Powered by Gaga
-■■■■■■—————✺✺✺✺—————■■■■■■■
+Copy the above session and send to your deployer
+
+ ☉ £ðllðw m¥ ¢håññêl ☉ 
+❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F] 
+
+ ☉ jðïñ Whå†§Äþþ ßð† grðµþ ☉
+❒⁠⁠⁠⁠[https://chat.whatsapp.com/JlrqoawQEKv0CXsnM0bZSg] 
+
+ ☉ †êlêgråm ðwñêr ☉
+❒⁠⁠⁠⁠[https://t.me/richardgaga] 
+
+ ☉ ᵂʰᵃᵗˢᴬᵖᵖ ᵒʷⁿᵉʳ ☉
+❒⁠⁠⁠⁠[https://wa.me/254112291443] 
+
+❍ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _https://www.instagram.com/naitwagaga_
+
+
+> i𝚗 𝚝𝚑𝚎 𝚘𝚠𝚗𝚎𝚛 𝚘𝚏 𝚁𝚒𝚌𝚑𝚊𝚛𝚍 𝙶𝚊𝚐𝚊
+╚══════════════╝
 `
  await Pair_Code_By_France_King.sendMessage(Pair_Code_By_France_King.user.id,{text:FLASH_MD_TEXT},{quoted:session})
  
